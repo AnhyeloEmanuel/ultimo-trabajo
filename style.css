@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 1rem;
+}
+
+form input, form textarea {
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    font-size: 1rem;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 0.75rem;
+    border: none;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+button:hover {
+    background-color: #555;
+}
+.container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.imges{
+    width: 200px;
+    height: 200px;
+}
+.contener{
+    justify-content: center;
+    display: flex;
+}
+.txt{
+    margin-right: 500px;
+    margin-left: 500px;
+}
+.secuno{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+img{
+    width: 30%;
+}
+.txtun{
+    margin-left: 100px;
+}
+pre{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.secdo{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.sectre{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.txtdo{
+    margin-right: 100px;
+    margin-left: 100px;
+}
